@@ -1,0 +1,284 @@
+body{
+    background-color: rgb(0, 0, 85);
+    background-image:url('../Media/Images/galaxy-fotor-20231011231552.jpg');
+background-attachment:fixed;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-size: cover;
+min-height: 90vh;
+  
+
+}
+
+
+@font-face {
+font-family: "pixels";
+src: url("../Media/Font/pcsenior.ttf");
+}
+
+@font-face {
+    font-family: "bublefont";
+    src: url(../Media/Font/Thirteen-Pixel-Fonts.ttf);
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+
+
+    
+  
+
+
+.header{
+    z-index: 1;
+    top: 30px;
+    left: 60px;
+    text-align: center;
+    color: #b4000a;
+    position: absolute;
+    font-size: 20px;
+    font-family: 'bublefont';
+    position: absolute;
+    display: block;
+    background-color: #ffbabe;
+        width: 86%;
+       padding-top: 5px;
+       padding-bottom: 5px;
+       padding-left: 1%;
+       padding-right: 1%;
+       border: 6px dashed;
+   
+
+   
+
+    
+    
+}    
+.intro-mario {
+  
+    float: left;
+    position: relative;
+    margin-right: 20px;
+    width: 200px;
+    height: 150px;
+    border: 20px white solid;
+    top: 120px;
+    left: 25px;
+    padding: 0 10 0 0px;
+ 
+    
+    
+    
+
+
+}
+
+.intro-summary{
+    
+    font-size: 13px;
+    color: white;
+    font-family: pixels;
+    position: relative;
+    top: 150px;
+    left: 35px;
+    width: 1400px;
+    
+
+    }
+    
+ 
+    
+    
+
+
+.ad{
+    position: absolute;
+    float: right;
+    margin-left: 20px;
+    height: 150px;
+    width: 190px;
+    top: 120px;
+    left: 950px;
+    border: white solid 20px;
+
+    
+    
+
+}
+
+.sonic-intro{
+    position: relative;
+    width: 230px;
+    height: 150px;
+    top: 120px;
+    left: 915px;
+    border: white solid 20px;
+
+
+}
+
+.Banddit{
+    position: relative;
+    width: 330px;
+    height: 150px;
+    top: -371px;
+    left: 250px;
+    border: white solid 20px;
+
+}
+
+.pacman{
+    position: relative;
+    width: 330px;
+    height: 150px;
+    top: -371px;
+    left:240px;
+    border: white solid 20px;
+}
+
+.-ad {
+position: fixed;
+top: 200px;
+left: 500px;
+width: 490px;
+height: 350px;
+border: yellow solid 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 2;
+
+
+}
+
+#close-popup {
+    position: fixed;
+    top: 214px;
+    right: 480px;
+    width: 30px;
+    z-index: 3;
+    
+
+}
+
+.learn-more {
+    font-size: 20px;
+    z-index: 13;
+    color: rgb(254, 145, 133);
+    text-decoration: underline;
+    position: relative;
+    left: 50px;
+    z-index: 1;
+}
+
+.or{
+    font-size: 20px;
+    z-index: 13;
+    color: rgb(155, 232, 231);
+    text-decoration: underline;
+    position: relative;
+    left: 682px;
+    z-index: 1; 
+    width: 850px;
+    top: -46px;
+}
+
+.pacmanlogo{
+    position: relative;
+    top: -200px;
+    left: 500px;
+    justify-content: center;
+    height: 220px;
+    width: 500px;
+   
+}
+
+.soniclogo{
+    position: relative;
+    width: 550px;
+    height: 450px;
+    top: 145px;
+    left: -480px;
+    border: black solid 10px;
+}
+
+.pacsummary{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    top: -750px;
+    left: 50px;
+    font-family: pixels;
+    width: 1350px;
+    display: block;
+    background-color: rgb(255, 6, 6);
+    border: 10px solid wheat;
+}
+.soniclogo{
+    top: 555px;
+    left: 10px;
+    
+  
+}
+
+.sonicsum{
+    position: relative;
+    color: white;
+    font-size: 14px;
+    top: 270px;
+    left: 50px;
+    font-family: pixels;
+    width: 1350px;
+    height: 340px;
+    display: block;
+    background-color: rgb(255, 6, 6);
+    border: 10px solid wheat;
+   
+}
+.crashlogo{
+    position: relative;
+    top: 875px;
+    left: 520px;
+    width: 500px;
+}
+
+.bandsum{
+    position: relative;
+    color: white;
+    font-size: 33px;
+    font-family: pixels;
+    top: 225px;
+    left: 50px;
+    width: 1350px;
+    height: 340px;
+    display: block;
+    background-color: rgb(255, 6, 6);
+    border: 10px solid wheat;
+   
+}
+.mariologo{
+    position: relative;
+    top: 1500px;
+    left: 50px;
+    width: 500px;
+}
+
+.mario{
+    position: relative;
+    color: white;
+    font-size: 14px;
+    top:475px ;
+    left: 60px;
+    font-family: pixels;
+    width: 1350px;
+    display: block;
+    background-color: rgb(255, 6, 6);
+    border: 10px solid wheat;
+}
+
